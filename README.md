@@ -4,52 +4,19 @@ A hand-on practice repository for builing Linux, Bash, and Git fundamentals.
 
 ## What is in this repo
 
-- organize.sh : A Basg srcipt that automatically sorts files into images, documents and videos folder based on their file extension.
-- practice : A Folder used to test core linux commands ('cd','ls','find','grep','chmod')
+- organize.sh : A Bash srcipt that automatically sorts files into images, documents and videos folder based on their file extension.
+- practice : A Folder used to test core linux commands ('cd', 'ls', 'find', 'grep', 'chmod')
 - Notes and exercise on Git basics (branching, staging, committing, pushing)
 
 ## organize.sh : file organizer script
 
 ### What it does
 scans all files in the current directory and moves them into categorized subfolders : 
-
-|
- File type
-|
- Extensions
-|
- Destination
-|
- ---
-|
- Images
-|
- '.jpg'
-|
- '.jpeg'
-|
- '.png'
-|
- 'images/'
-|
-|
- Documents
-|
- '.pdf'
-|
- '.docx'
-|
-'docs/'
-|
-|
- Videos
-|
- '.mp4'
-|
- '.mov'
-|
- 'videos/'
-|
+| File type | Extensions | Destination |
+|---|---|---|
+| Images | `.jpg`, `.jpeg`, `.png` | `images/` |
+| Documents | `.pdf`, `.docx` | `docs/` |
+| Videos | `.mp4`, `.mov` | `videos/` |
 
 Files with unmatched extensions are skipped. Directories are ignored, not moved.
 
